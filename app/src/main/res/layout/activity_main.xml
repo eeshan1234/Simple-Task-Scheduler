@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="4sp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000"
+    >
+
+
+        <ListView
+            android:layout_marginTop="23dp"
+            android:id="@+id/alarm_list"
+            style="@style/widget"
+            android:background="@color/white"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+
+             />
+
+
+    <Button
+        android:id="@+id/add_alarm"
+        style="@style/widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:background="#ff6347"
+
+        android:onClick="onAddAlarmClick"
+        android:text="Add alarm"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
